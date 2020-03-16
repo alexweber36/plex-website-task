@@ -7,6 +7,8 @@
 #logo{
     font-size: 30px;
     padding: 10px;
+    animation: animate 10s linear infinite;
+    
    }
    .P{
        color: rgb(179, 182, 35);
@@ -16,6 +18,9 @@
    }
    .E{
        color: darkturquoise;
+   }
+   .section{
+       justify-content: space-between;
    }
 
 #navbar{
@@ -28,8 +33,10 @@
     margin: 10px;
     padding: 10px;
     display: flex;
+    justify-content: space-between;
     
 }
+
   
 @keyframes animate{
       0%  
@@ -77,14 +84,14 @@
 .DeinMedia{
     margin: 0;
     padding: 0;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     opacity: 0.4;
     transform: scaleY(1);
    font-size: 0.9em;
       
 }
-.DeinMedia:hover {
+.DeinMedia {
  color: darkorange;
 }
 .Media{
