@@ -1,0 +1,107 @@
+.header{
+    background-image: url(../images/hero-homepage-2019-1800x1185.jpg);
+    height: 100vh;
+    font-size: 15px;
+    }
+
+#logo{
+    font-size: 30px;
+    padding: 10px;
+   }
+   .P{
+       color: rgb(179, 182, 35);
+   }
+   .L{
+       color: crimson;
+   }
+   .E{
+       color: darkturquoise;
+   }
+
+#navbar{
+    display: flex;
+    
+    }
+       
+.ulnavbar{
+    list-style: none; 
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    
+}
+  
+@keyframes animate{
+      0%  
+    {
+        opacity:0;
+        transform: rotateY(30deg);
+        filter: blur(10px);
+    }
+    100%
+    {
+        opacity: 1; 
+        transform: rotateY(360deg);
+        filter: blur(0.1);
+        
+    } 
+}
+/* ul-navbar */
+ 
+
+     
+
+.Button1{
+    border: 8px sandybrown solid;
+    background-color: sandybrown;
+    border-radius: 20px;
+    color: white;
+
+    }
+.Button1:active{
+    color: blue;
+}
+.first {
+    text-align: center;
+    color:black;
+    margin: 10px;
+    padding: 10px;
+    flex-wrap: nowrap;
+}
+.Button{
+    color: #fff;
+    Background-color: sandybrown;
+    border-radius: 100px;
+    border: 1px solid;
+}
+.DeinMedia{
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+    display: flex;
+    opacity: 0.4;
+    transform: scaleY(1);
+   font-size: 0.9em;
+      
+}
+.DeinMedia:hover {
+ color: darkorange;
+}
+.Media{
+    background-color: rgb(179, 182, 35);
+    padding: 10px;
+    }
+.Music{
+    background-color: rgb(158, 158, 136);
+    padding: 10px;
+    
+}   
+.Live{
+    background-color: rgb(179, 182, 35);
+    padding: 10px;  
+} 
+.Kostenlose{
+    background-color: rgb(145, 149, 187);
+    padding: 10px
+}
+
