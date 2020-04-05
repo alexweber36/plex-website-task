@@ -2,113 +2,123 @@
     background-image: url(../images/hero-homepage-2019-1800x1185.jpg);
     height: 100vh;
     font-size: 15px;
-    }
-
-#logo{
-    font-size: 30px;
-    padding: 10px;
-    animation: animate 10s linear infinite;
-    
-   }
-   .P{
-       color: rgb(179, 182, 35);
-   }
-   .L{
-       color: crimson;
-   }
-   .E{
-       color: darkturquoise;
-   }
-   .section{
-       justify-content: space-between;
-   }
-
-#navbar{
-    display: flex;
-    
-    }
-       
-.ulnavbar{
-    list-style: none; 
-    margin: 10px;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    
+    background-color :rgba(0, 0, 255, 0);
 }
-
+/* start logo style  */
+.img{
+   background-size: c ;
+    position: relative;
+    image-resolution: 10px;
+    padding: 10px;
+    width: 10%;
+   height: auto; 
+}
+@media only screen and (min-width:400px){
+    .header{
+        background-image: url(../images/hero-homepage-2019-1800x1185.jpg);
+      
+    }
+}
   
-@keyframes animate{
-      0%  
-    {
-        opacity:0;
-        transform: rotateY(30deg);
-        filter: blur(10px);
-    }
-    100%
-    {
-        opacity: 1; 
-        transform: rotateY(360deg);
-        filter: blur(0.1);
-        
-    } 
+   /* END LOGO style */
+
+   /* START style navbar */
+   .navbar-container{
+   display: flex;
+   
 }
-/* ul-navbar */
+  
  
 
+  
+
+ .navbar{ 
+    display: flex;
+    margin: 0 auto;
+    list-style-type: none;
+  
+
+}
+
+
+    
+  
      
 
-.Button1{
+
+   
+
+/*  end ul-navbar */
+
+/* START BUTTON STYLE  */
+  .Button1{
     border: 8px sandybrown solid;
     background-color: sandybrown;
     border-radius: 20px;
     color: white;
+    text-align: ;
 
     }
+.Button1{
+    display: flex;
+    height: 30px;
+    list-style: none;
+    
+}
 .Button1:active{
     color: blue;
-}
-.first {
-    text-align: center;
-    color:black;
-    margin: 10px;
-    padding: 10px;
-    flex-wrap: nowrap;
-}
-.Button{
+  }
+  .Button{
     color: #fff;
     Background-color: sandybrown;
     border-radius: 100px;
     border: 1px solid;
+    text-align: center;
+  }
+
+ /* STYLE STREAME */
+.first-item {
+    text-align: center;
+    color:rgb(8, 8, 8);
+    margin: 10px;
+    padding: 10px;
 }
+/* END STREAME */
+
+
 .DeinMedia{
-    margin: 0;
-    padding: 0;
-    /* border: 1px solid red; */
+    box-sizing: border-box;
+    position: relative;
+    top: 50%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid red; 
     display: flex;
-    opacity: 0.4;
-    transform: scaleY(1);
+    opacity: 0.8;
    font-size: 0.9em;
+   background-color: gray;
       
 }
-.DeinMedia {
- color: darkorange;
-}
-.Media{
-    background-color: rgb(179, 182, 35);
+
+.Media{ 
+   
+    box-sizing: border-box;
+    border:1px solid greenyellow;
+    transform: scale(1.2); 
     padding: 10px;
+    margin: 11px;
     }
 .Music{
-    background-color: rgb(158, 158, 136);
     padding: 10px;
     
 }   
 .Live{
-    background-color: rgb(179, 182, 35);
-    padding: 10px;  
+    padding: 10px;
+      
 } 
 .Kostenlose{
-    background-color: rgb(145, 149, 187);
+    
     padding: 10px
 }
+
 
